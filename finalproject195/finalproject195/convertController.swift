@@ -32,22 +32,24 @@ class convertController: UIViewController {
     }
     
     @IBAction func convertBtn(_ sender: Any) {
-        print("btn clicked")
-        print(segmentNum)
+        
         if segmentNum == 0 {
-        var userInput = userNum.text!
-        var twobase = userInput
-        var tenbase = Int(twobase, radix: 2)!
-        var hexbase =  String(Int(twobase, radix: 2)!, radix: 16)
-        print(twobase)
-        print(tenbase)
-        print(hexbase)
+        let userInput = userNum.text!
+        let twobase = userInput
+            
+            
+            let tenbase = Int(twobase, radix: 2)!
+            let hexbase = String(Int(twobase, radix: 2)!, radix: 16)
+            
+        
         b2.text = twobase
-        b10.text = String(tenbase)
-            b16.text = hexbase}
+            b10.text = String(tenbase)
+            b16.text = hexbase
+            
+        }
         if segmentNum == 1{
-            var userInput = userNum.text!
-            var tenbase = Int(userInput)
+            let userInput = userNum.text!
+            let tenbase = Int(userInput)
             let twobase = String(tenbase!, radix: 2)
             let hexbase = String(tenbase!, radix: 16)
             b2.text = twobase
@@ -55,7 +57,7 @@ class convertController: UIViewController {
             b16.text = hexbase
         }
         if segmentNum == 2{
-            var userInput = userNum.text!
+            let userInput = userNum.text!
             let hexbase = userInput
             let tenbase = Int(hexbase, radix: 16)!
             let twobase = String(Int(hexbase, radix: 16)!, radix: 2)
