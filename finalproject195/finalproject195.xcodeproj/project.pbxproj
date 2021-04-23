@@ -18,6 +18,8 @@
 		11B89CA326172EA900997DA2 /* finalproject195UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B89CA226172EA900997DA2 /* finalproject195UITests.swift */; };
 		11B89CBC261733D300997DA2 /* convertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B89CBB261733D300997DA2 /* convertController.swift */; };
 		11C93F782631F09E006B800C /* ggcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C93F772631F09E006B800C /* ggcontroller.swift */; };
+		C2CDA0FC26332DCB005BE540 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CDA0FB26332DCB005BE540 /* TrackerViewController.swift */; };
+		C2CDA10726333AB5005BE540 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CDA10626333AB5005BE540 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		11B89CA426172EA900997DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B89CBB261733D300997DA2 /* convertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertController.swift; sourceTree = "<group>"; };
 		11C93F772631F09E006B800C /* ggcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ggcontroller.swift; sourceTree = "<group>"; };
+		C2CDA0FB26332DCB005BE540 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		C2CDA10626333AB5005BE540 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				11B89C8026172EA600997DA2 /* AppDelegate.swift */,
 				11B89C8226172EA600997DA2 /* SceneDelegate.swift */,
 				11B89C8426172EA600997DA2 /* ViewController.swift */,
+				C2CDA0FB26332DCB005BE540 /* TrackerViewController.swift */,
 				11B89C8626172EA600997DA2 /* Main.storyboard */,
 				11C93F772631F09E006B800C /* ggcontroller.swift */,
 				113AA2F32631D95E00D0F0CB /* GPAcontroller.swift */,
@@ -115,6 +120,7 @@
 				11B89C8926172EA800997DA2 /* Assets.xcassets */,
 				11B89C8B26172EA800997DA2 /* LaunchScreen.storyboard */,
 				11B89C8E26172EA800997DA2 /* Info.plist */,
+				C2CDA10626333AB5005BE540 /* Task.swift */,
 			);
 			path = finalproject195;
 			sourceTree = "<group>";
@@ -267,11 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CDA10726333AB5005BE540 /* Task.swift in Sources */,
 				11B89C8526172EA600997DA2 /* ViewController.swift in Sources */,
 				11B89C8126172EA600997DA2 /* AppDelegate.swift in Sources */,
 				113AA2F42631D95E00D0F0CB /* GPAcontroller.swift in Sources */,
 				11B89C8326172EA600997DA2 /* SceneDelegate.swift in Sources */,
 				11B89CBC261733D300997DA2 /* convertController.swift in Sources */,
+				C2CDA0FC26332DCB005BE540 /* TrackerViewController.swift in Sources */,
 				11C93F782631F09E006B800C /* ggcontroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
